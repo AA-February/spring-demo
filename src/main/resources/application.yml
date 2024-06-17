@@ -1,0 +1,25 @@
+spring:
+    application:
+        name: spring-into
+    datasource:
+        url: jdbc:mysql://localhost:3306/security_demo?createDatabaseIfNotExist=true
+        driverClassName: com.mysql.cj.jdbc.Driver
+        username: root
+    #    password: <your password>
+    jpa:
+        hibernate:
+            ddl-auto: create
+        show-sql: true
+        format-sql: true
+
+dates:
+    weekend: 2
+    week: 7
+    month: 31
+    year: 365
+
+spring-doc:
+    api-docs:
+        path: /api-docs
+
+secretKey: 432A462D4A614E645267556B58703273357638792F423F4528472B4B62506553
