@@ -23,3 +23,9 @@ spring-doc:
         path: /api-docs
 
 secretKey: 432A462D4A614E645267556B58703273357638792F423F4528472B4B62506553
+
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
