@@ -19,7 +19,7 @@ public class UserConverter {
     public User toUser(UserRequest userRequest) {
         User user = new User();
         user.setEmail(userRequest.getEmail());
-        user.setRole(Role.USER);
+        user.setRole(Role.ROLE_USER);
         user.setFirstname(userRequest.getFirstname());
         user.setLastname(userRequest.getLastname());
         user.setPassword(passwordEncoder.encode(userRequest.getPassword()));
